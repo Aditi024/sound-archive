@@ -1,0 +1,231 @@
+html {
+  font-size: 12px;
+  background: #E8FDF5;
+  background-size: cover;
+}
+
+body {
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.world {
+  backround: img('https://36.media.tumblr.com/55b7c676014e8766af5c0088c004572e/tumblr_nkxeyghIRj1u2zlg4o1_1280.png');
+}
+
+.doc {
+  list-style-type: none;
+  padding: 30px 30px 30px 30px;
+  margin-left: 0;
+  font-family: 'Work Sans', sans-serif;
+  transform: perspective(350px) rotatey(-.75deg);
+}
+
+.left {
+  float: left;
+  position: absolute;
+  width: 45%;
+  font-size: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.right {
+  position: absolute;
+  left: 53vw;
+  font-size: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.univers-list {
+  font-size: 2.3vw;
+  line-height: 2.7vw;
+  color: #FF4136;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.helvetica-body {
+  font-size: 2.3vw;
+  line-height: 2.7vw;
+  font-family: helvetica;
+  font-weight: bold;
+  float: left;
+  width: 350px;
+  padding: 20px 20px 20px 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #357EDD;
+}
+
+.times-quote {
+  font-size: 3vw;
+  line-height: 3.8vw;
+  font-family: times;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.new {
+  padding: 15px 0px 0px 0px;
+}
+
+.right-body {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  font-size: 1.5vw;
+  line-height: 1.6vw;
+  font-family: times;
+  font-weight: book;
+  font-family: 'Work Sans', sans-serif;
+  transform: perspective(350px) rotatey(-.75deg);
+}
+
+.right-large-body {
+  font-size: 5.2vw;
+  line-height: 5.5vw;
+  font-family: times;
+  font-weight: book;
+  font-family: 'IBM Plex Serif', serif;
+  transform: perspective(350px) rotatey(-.75deg);
+}
+
+.rollover {
+  display: inline;
+}
+
+.rollover-1 {
+  display: inline;
+}
+
+.rollover-2 {
+  display: inline;
+}
+
+.rollover-3 {
+  display: inline;
+}
+
+.rollover-4 {
+  display: inline;
+}
+
+.rollover-5 {
+  display: inline;
+}
+
+.rollover-6 {
+  display: inline;
+}
+
+.rollover:hover {
+  width: 1000px;
+  z-index: 110;
+  /* box-shadow: 10px 10px 49px 2px rgba(0, 0, 0, 0.5); */
+  position: absolute;
+  display: inline;
+  left: -34vw;
+  content: url(https://static1.squarespace.com/static/5a111fc7aeb6259e50c3331d/t/5bda50490e2e72d1672120b6/1541034064761/IMG_9679+2.JPG);
+  text-indent: -10000px;
+}
+
+.rollover-1:hover {
+  width: 70vw;
+  z-index: 110;
+  box-shadow: 10px 10px 49px 2px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: inline;
+  left: -34vw;
+  content: url(https://66.media.tumblr.com/63af4e9b9cc49f53c25d4b3ce44c471b/tumblr_nw0a7kaqJZ1qhq14eo1_1280.jpg);
+  text-indent: -10000px;
+}
+
+.rollover-2:hover {
+  width: 70vw;
+  z-index: 110;
+  box-shadow: 10px 10px 49px 2px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: inline;
+  left: -34vw;
+  content: url(https://40.media.tumblr.com/db5673d01051d31a72ecec83be0e7464/tumblr_nk1f0zww7m1u2zlg4o2_540.png);
+  text-indent: -10000px;
+}
+
+.rollover-3:hover {
+  width: 70vw;
+  z-index: 110;
+  position: absolute;
+  display: inline;
+  left: 0vw;
+  content: url(https://66.media.tumblr.com/tumblr_lv4vpouMZ81qb82uoo1_400.gif);
+  text-indent: -10000px;
+}
+
+.rollover-4:hover {
+  width: 500px;
+  height: 800px;
+  z-index: 110;
+  position: absolute;
+  display: inline;
+  left: 0vw;
+  content: url(https://66.media.tumblr.com/fb42ee6db9c315ac87b1899c83acbbb6/tumblr_n41do3pfbT1qgn23wo1_500.jpg);
+  text-indent: -10000px;
+}
+
+.rollover-5:hover {
+  width: 70vw;
+  z-index: 110;
+  position: absolute;
+  display: inline;
+  left: 0vw;
+  content: url(https://40.media.tumblr.com/f76007a7a29ac46ac578cdba0041a033/tumblr_nk1wzkCILN1u2zlg4o6_1280.png);
+  text-indent: -10000px;
+}
+
+.rollover-6:hover {
+  width: 70vw;
+  z-index: 110;
+  position: absolute;
+  display: inline;
+  left: 0vw;
+  content: url(https://41.media.tumblr.com/6dd3af2e8d660c77ac71ea61634aabf8/tumblr_nkxm6hSHnp1qjkix2o1_1280.jpg);
+  text-indent: -10000px;
+}
+
+.keys {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column: 2/4;
+  grid-gap: 20px; */
+  color: #E7040F;
+  font-family: 'Work Sans', sans-serif;
+  justify-items: center;
+}
+
+.key {
+  transition: all .05s ease;
+  color: green;
+  font-size: 30px;
+}
+
+::-moz-selection {
+  background: #ffeb3b;
+}
+
+::selection {
+  background: #ffeb3b;
+}
+
+.playing {
+  transform: scale(0.5);
+  font-size: 100px;
+}
+
+/* kbd {
+  display: block;
+  font-size: 20px;
+  align-items: center;
+} */
+
+.sound {
+  font-size: 30px;
+  color: green;
+}
